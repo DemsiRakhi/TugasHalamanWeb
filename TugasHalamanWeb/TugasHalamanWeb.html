@@ -1,0 +1,116 @@
+<html>
+    <body>
+        <h1 class="title">SMP LABORATORIUM</h1>
+        <h2 class="title2">UNIVERSITAS NEGERI MALANG</h2>
+        <div class="menu">
+            <ul class="horizontal">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profil Sekolah</a></li>
+                <li><a href="#">Yayasan P2LP</a></li>
+                <li><a href="#">Informasi</a></li>
+                <li><a href="#">PPDB</a></li>
+                <li><a href="#">Galeri</a></li>
+                <li><a href="#">Organisasi</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </div>
+        <hr class="line">
+        <div="galeri">
+            <table>
+                <tr>
+                    <td><img class="gsf" src="GSF2017.jpg"></td>
+                    <p class="deskripsi-1 solid"><b>Green School Festival 2017</b></p>
+                    <td><img class="pembinaan" src="pembinaan.jpg"></td>
+                    <p class="deskripsi-2 solids"><b>Pembinaan Dari Pihak Kepolisian</b></p>
+                </tr>
+            </table>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <fieldset class="fieldset-1">
+                        <legend><h1 class="deskripsi">Popular Articles</h1></legend>
+                        <img class="penerimaanguru-1" src="penerimaanguru.jpeg">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset class="fieldset-2">
+                        <legend><h1 class="deskripsi">Featured Article</h1></legend>
+                        <img class="penerimaanguru-2" src="penerimaanguru.jpeg">
+                        <div class="penjelas">
+                        <b>PENERIMAAN GURU DAN PEGAWAI</b>
+                        <br>
+                        <i>10 Januari 2019</i>
+                        <br>
+                        <br>
+                        PENERIMAAN GURU DAN PEGAWAI DIBUTUHKAN : Tenaga Pengajar Bahasa Inggris IPA (Diutamakan FISIKA) 
+                        Pendidikan Agama Islam Bimbingan dan Konseling Staf Kebersihan dan Taman   
+                        PERSYARATAN Tenaga Pengajar Lulusan S1 Diutamakan Lulusan UM Diutamakan memiliki pengalaman berorganisasi 
+                        Memiliki integritas dan akhlak mulia Disiplin, Cakap dan Komunikatif
+                        </div>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+    <style>
+        .menu{ margin:0; width:100%; position:sticky; }
+        ul.horizontal{
+            list-style-type:none;
+            padding: 0;
+            margin: 0;
+            overflow:hidden;
+            background-color:blue;
+        }
+        ul.horizontal li { float: left; }
+        ul.horizontal li a{
+            display: block;
+            text-decoration: none;
+            color:white;
+            padding: 15px;
+            text-align:center;
+        }
+        ul.horizontal li a:hover{ background-color: green; }
+        .title{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .title2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:grey;
+        }
+        .galeri img{
+            width: 20px;
+            height: 20px;
+        }
+        .deskripsi-1{
+			position: absolute;
+			left: 40px;
+			top: 530px;
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding:10px; background: black; color:#fff;
+        }
+        .deskripsi-2{
+			position: absolute;
+			right: 60px;
+			top: 530px;
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding:10px; background: black; color:#fff;
+        }
+        .solid{border-style: solid; border-width: 4px; border-color: #000;}
+        .solids{border-style: solid; border-width: 4px; border-color: #000;}
+        .line{border-style: dotted; color: black;}
+        .gsf{width: 100%;}
+        .pembinaan{width: 100%;}
+        .penerimaanguru-1{width: 650px; height: 600px;}
+        .penerimaanguru-2{width: 300px; height: 400px;}
+        .deskripsi{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        .fieldset-1{position: absolute; width: 60%; left: 40px;}
+        .fieldset-2{position: absolute; width: 20%; right: 60px;}
+        .penjelas{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    </style>
+</html>
